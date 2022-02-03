@@ -325,5 +325,6 @@ section .content{
     text-align: left;
 }
 .responsibilities-details .right li{
+    font-weight: normal;
     list-style: square;
 }
