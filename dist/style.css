@@ -267,7 +267,7 @@ section .content{
     content: '';
     margin: 0 auto;
     display: block;
-    width: 10%;
+    width: 100px;
     padding-bottom: 10px;
     border-bottom: 1px solid var(--primary-color);
     transform: translateX(50px);
