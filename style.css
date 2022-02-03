@@ -300,6 +300,17 @@ section .content{
     transform: translateX(50px);
     transform: rotate(3deg);
 }
+.experience .content::before,
+.experience .title span::after{
+    content: '';
+    margin: 0 auto;
+    display: block;
+    width: 15%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--primary-color);
+    transform: translateX(50px);
+    transform: rotate(3deg);
+}
 .exp-details .right .topic{
     padding: 10px;
     font-size: 15px;
