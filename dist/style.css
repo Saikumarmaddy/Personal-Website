@@ -170,7 +170,9 @@ nav.sticky .menu-btn{
     width: 60%;
 }
 .about,
-.skills{
+.skills,
+.experience,
+.responsibilities{
     background: #f0f8ff;
 }
 section .content{
@@ -187,7 +189,9 @@ section .content{
     font-weight: 700;
 }
 .about-details,
-.skills-details{
+.skills-details,
+.exp-details,
+.responsibilities{
     text-align: left;
     display: flex;
     justify-content: space-between;
@@ -195,7 +199,9 @@ section .content{
 .about-details .left,
 .about-details .right,
 .skills-details .left,
-.skills-details .right{
+.skills-details .right,
+.exp-details .right,
+.responsibilities .right{
     margin: 60px;
 }
 .right .topic{
@@ -254,7 +260,8 @@ section .content{
     display: flex;
     justify-content: space-between;
 } */
-.skills-details .right li{
+.skills-details .right li,
+.responsibilities-details .right li{
     list-style: none;
     margin: 8px;
     font-size: 15px;
@@ -272,4 +279,37 @@ section .content{
     border-bottom: 1px solid var(--primary-color);
     transform: translateX(50px);
     transform: rotate(3deg);
+}
+.exp-details .right .topic{
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.exp-details .right p{
+    padding: 10px;
+}
+.cards{
+    width: 30%;
+    margin-right: 10px;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+    line-height: 23px;
+}
+.cards .topic{
+    text-align: center;
+}
+.cards .designation,
+.cards .period{
+    font-weight: 400;
+}
+.exp-details .right{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.responsibilities .content li{
+    text-align: left;
+}
+.responsibilities-details .right li{
+    list-style: square;
 }
