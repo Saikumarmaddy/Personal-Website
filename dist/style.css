@@ -263,10 +263,14 @@ section .content{
     font-size: 15px;
     font-weight: 400;
 }
-/* .right .skills-menu{
+.skills-details .right .skills-menu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-} */
+}
+.skills-details .right .skills-menu li{
+    width: 25%;
+}
 .skills-details .right li,
 .responsibilities-details .right li{
     list-style: none;
@@ -345,3 +349,94 @@ section .content{
     font-weight: normal;
     list-style: square;
 }
+
+.home-view a{
+    position: fixed;
+    bottom: 20px;
+    right: 17%;
+    color: var(--white-color);
+    background: var(--black-color);
+    padding: 7px;
+    border-radius: 5px;
+    /* display: none; */
+}
+@media (max-width: 640px){
+
+}
+@media (min-width: 641px) and (max-width: 800px){
+    body,
+    nav{
+        width: 100%;
+    }
+    .about-details,
+    .skills-details {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-details .left img{
+        width: 35%;
+    }
+    .about-details .left,
+    .skills-details .left{
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .about-details .left{
+        margin-top: 40px;
+    }
+    .about-details .right,
+    .skills-details .right{
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .about-details .topic,
+    .about-details p,
+    .skills-details .left p,
+    .exp-details .right{
+        text-align: left;
+    }
+    .skills-details .left{
+        width: 95%;
+    }
+    .skills-details .left .experience{
+        margin: 0 30px;
+    }
+    .skills-details .right{
+        width: 75%;
+    }
+    .skills-details .right li{
+        margin-top: 2px;
+        margin-bottom: 2px;
+        text-align: left;
+    }
+    .cards{
+        width: 40%;
+        margin-bottom: 40px;
+    }
+    .content .exp-details .right{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media (min-width: 801px) and (max-width: 1024px){
+    body{
+        font-size: small;
+    }
+}
+@media (min-width: 1025px){
+    body{
+        font-size: large;
+    }
+}
+
+/* @media (max-width:1100px){
+    section .content{
+        width: 85%;
+        font-size: smaller;
+    }
+    nav ul{
+        font-size: smaller;
+    }
+} */
