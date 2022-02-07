@@ -36,6 +36,7 @@ nav{
     padding: 20px 0;
     z-index: 9999;
     transition: all 0.5s ease;
+    background: rgb(19 59 95);
 }
 nav.sticky{
     background: var(--primary-color);
@@ -124,7 +125,7 @@ nav.sticky .menu-btn{
 } */
 .home .sample .home-content{
     width: 90%;
-    height: 60vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -141,7 +142,7 @@ nav.sticky .menu-btn{
 .home .text-two{
     font-size: 50px;
     font-weight: 700;
-    color: var(--black-color);
+    color: #cfd9e1;
 }
 .home .text-three{
     font-size: x-large;
