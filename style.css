@@ -52,7 +52,8 @@ nav .navbar{
     align-items: center;
     margin: auto;
 }
-nav .navbar .logo li {
+nav .navbar .logo1 li,
+nav .navbar .logo2 li {
     font-weight: 300;
     font-size: 15px;
     color: var(--white-color);
@@ -402,6 +403,11 @@ section .content{
     nav{
         width: 100%;
     }
+    nav .navbar .logo2 li {
+        position: absolute;
+        left: 10%;
+        padding: 10px;
+    }
     .about-details,
     .skills-details {
         text-align: center;
@@ -454,7 +460,7 @@ section .content{
         flex-wrap: wrap;
     }
     nav{
-        /* height: 70px; */
+        height: 60px;
         padding: 10px;
     }
     nav .menu-btn,
@@ -478,10 +484,12 @@ section .content{
         margin: 10px 10px;
     }
     nav .navbar .menu a{
-        font-size: 20px;
+        font-size: 16px;
         transition: all 0.5s ease;
     }
     nav .navbar.active .menu{
+        position: absolute;
+        z-index: 1;
         left: 0;
     }
     
