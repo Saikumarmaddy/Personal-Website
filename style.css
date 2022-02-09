@@ -170,6 +170,12 @@ nav.sticky .menu-btn{
 .home .button{
     margin: 14px 0;
 }
+.home .button button a{
+    color: var(--white-color);
+}
+.home .button button a:hover{
+    color: var(--primary-color);
+}
 .home .button button{
     background: var(--primary-color);
     padding: 8px 16px;
