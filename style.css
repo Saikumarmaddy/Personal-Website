@@ -187,11 +187,9 @@ nav.sticky .menu-btn{
     cursor: pointer;
     border: 2px solid transparent;
 }
-.home .button button:hover,
-.home .button button a:hover{
+.home .button button:hover{
     font-weight: 700;
-    background: var(--white-color);
-    color: var(--primary-color);
+    background: rgb(19 59 95 / 40%);
     border: 2px solid var(--primary-color);
 }
 .about-details .left img{
