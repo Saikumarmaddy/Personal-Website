@@ -174,9 +174,9 @@ nav.sticky .menu-btn{
 .home .button button a{
     color: var(--white-color);
 }
-.home .button button:hover{
+/* .home .button button a:hover{
     color: var(--primary-color);
-}
+} */
 .home .button button{
     background: var(--primary-color);
     padding: 8px 16px;
@@ -187,7 +187,8 @@ nav.sticky .menu-btn{
     cursor: pointer;
     border: 2px solid transparent;
 }
-.home .button button:hover{
+.home .button button:hover,
+.home .button button a:hover{
     font-weight: 700;
     background: var(--white-color);
     color: var(--primary-color);
